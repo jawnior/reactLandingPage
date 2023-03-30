@@ -14,7 +14,8 @@ export function Header() {
     <nav>
       <p className="title">USŁUGI GEODEZYJNE JAN KOWALSKI</p>
       <ul className="navlinks">
-        <NavLink className="about-me" to="/" style={navLinkStyles}>O mnie</NavLink>
+      <NavLink className="home" to="/" style={navLinkStyles}>Strona główna</NavLink>
+        <NavLink className="about-me" to="o-mnie" style={navLinkStyles}>O mnie</NavLink>
         <NavLink className="menu" to="oferta" style={navLinkStyles}>Oferta</NavLink>
         <NavLink className="testimonials" to="zaufali-mi" style={navLinkStyles}>Zaufali mi</NavLink>
         <NavLink className="contact" to="kontakt" style={navLinkStyles}>Kontakt</NavLink>
