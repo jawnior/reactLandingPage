@@ -6,6 +6,13 @@
     position: relative;
     top: 360px;
     align-items: center;
+    animation-name: opacity-menu;
+    animation-duration: 2s;
+}
+
+@keyframes opacity-menu {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .text-container1 {

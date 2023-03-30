@@ -6,6 +6,13 @@
     position: relative;
     top: 400px;
     align-items: center;
+    animation-name: opacity-about-me;
+    animation-duration: 2s;
+}
+
+@keyframes opacity-about-me {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 
 .text-container {
