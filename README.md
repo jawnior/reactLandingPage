@@ -16,3 +16,4 @@ Live demo [_here_](https://stupendous-cendol-d58ad3.netlify.app/)
 - Home page
 - Responsive Design
 - English page
+- Fix UI shortcomings
