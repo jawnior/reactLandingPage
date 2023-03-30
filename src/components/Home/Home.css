@@ -4,3 +4,9 @@
     top: 400px;
     text-align: center;
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1440px){
+    .text {
+        top: 150px;
+    }
+}

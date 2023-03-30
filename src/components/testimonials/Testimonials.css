@@ -40,6 +40,10 @@
 }
 
 @media only screen and (max-width: 1500px) {
+    #testimonials {
+        top: 0;
+    }
+
     .biedronka img {
         height: 118.56px;
         width: 260.68px;
