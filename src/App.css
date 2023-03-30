@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+
+html {
+  font-family: "Lato", "Roboto", sans-serif;
+  font-size: 16px;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e6e2d3;
+  margin: 0;
+}

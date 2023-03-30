@@ -1,0 +1,66 @@
+#testimonials {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    position: relative;
+    top: 160px;
+}
+
+.testimonials h1 {
+    height: 20px;
+}
+
+.testimonials img {
+    margin-left: 10px;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    flex-wrap: wrap;
+}
+
+.bp img {
+    height: 202.5px;
+    width: 360px;
+}
+
+.paleo img {
+    height: 283.8px;
+    width: 444px;
+}
+
+.amplus img {
+    height: 209.7px;
+    width: 540px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .biedronka img {
+        height: 118.56px;
+        width: 260.68px;
+    }
+
+    .mrowka img {
+        height: 74.48px;
+        width: 389.88px;
+    }
+
+    .bp img {
+        height: 153.9px;
+        width: 273.6px;
+    }
+
+    .paleo img {
+        height: 215.688px;
+        width: 337.44px;
+    }
+
+    .amplus img {
+        height: 174.75px;
+        width: 450px;
+    }
+}
