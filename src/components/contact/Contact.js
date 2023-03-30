@@ -4,7 +4,7 @@ import './Contact.css';
 export function Contact() {
   return (
     <div className="container">
-      <h1>Wypełnij formularz</h1>
+      <h1>Kontakt</h1>
       <form>
         <label for="fname">Imię</label>
         <input type="text" id="fname" name="firstname" placeholder="Imię..." required/>

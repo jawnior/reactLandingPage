@@ -3,7 +3,14 @@
     text-align: center;
     max-width: 100%;
     position: relative;
-    top: 250px;
+    top: 200px;
+    align-items: cent;
+    height: 100%;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 50px;
 }
 
 .testimonials h1 {
