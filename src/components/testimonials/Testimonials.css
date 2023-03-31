@@ -3,12 +3,23 @@
     text-align: center;
     max-width: 100%;
     position: relative;
-    top: 200px;
+    top: 180px;
     height: 100%;
     flex-direction: column;
+    animation-name: opacity-testimonials;
+    animation-duration: 2s;
 }
 
-.testimonials img {
+@keyframes opacity-testimonials {
+    from {opacity: 0; top: 0px;}
+    to {opacity: 1; top: 180px;}
+}
+
+#testimonials h2 {
+    font-size: 60px;
+}
+
+#testimonials img {
     margin-left: 10px;
 }
 
