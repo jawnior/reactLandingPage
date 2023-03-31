@@ -12,7 +12,7 @@
 
 @keyframes opacity-menu {
     from {opacity: 0; top: 0px;}
-    to {opacity: 1; top: 180px;}
+    to {opacity: 1; top: 360px;}
 }
 
 .text-container1 {
@@ -30,6 +30,13 @@
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     #menu {
         top: 180px;
+        animation-name: opacity-menu-mobile;
+        animation-duration: 2s;
+    }
+
+    @keyframes opacity-menu-mobile {
+        from {opacity: 0; top: 0px;}
+        to {opacity: 1; top: 180px;}
     }
 
     .text-container1 {
