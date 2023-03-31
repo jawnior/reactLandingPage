@@ -34,6 +34,13 @@
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     #about-me {
         top: 220px;
+        animation-name: opacity-about-me-laptop;
+        animation-duration: 2s;
+    }
+
+    @keyframes opacity-about-me-laptop {
+        from {opacity: 0; top: 0;}
+        to {opacity: 1; top: 220px;}
     }
 
     .text-container {
@@ -44,14 +51,14 @@
 @media only screen and (max-width: 1024px) {
     #about-me {
         height: 500px;
-        animation-name: opacity-about-me-mobile;
-        animation-duration: 2s;
+        /* animation-name: opacity-about-me-mobile;
+        animation-duration: 2s; */
     }
 
-    @keyframes opacity-about-me-mobile {
-        from {opacity: 0; top: 0px;}
-        to {opacity: 1; top: 220px;}
-    }
+    /* @keyframes opacity-about-me-mobile {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    } */
 
     .text-container {
         margin: auto;
