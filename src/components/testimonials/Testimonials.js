@@ -10,9 +10,6 @@ import amplus from '../images/amplus.png';
 export function Testimonials() {
   return (
     <div id="testimonials">
-      <h2 className="text">
-        Zaufali mi
-      </h2>
       <div className="image-container">
         <div className="biedronka">
           <a href="https://www.google.pl/maps/place/Biedronka/@50.1900698,20.2962996,17z/data=!4m5!3m4!1s0x47164af0d2c9914d:0xa29c0c4a5c81b6d1!8m2!3d50.1893853!4d20.2963728" target="_blank" rel="noreferrer"><img src={biedronka} alt="Logo Biedronka"/></a>
