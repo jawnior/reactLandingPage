@@ -6,6 +6,7 @@ import { Menu } from './components/menu/Menu';
 import { Testimonials } from './components/testimonials/Testimonials';
 import { Contact } from './components/contact/Contact';
 import { Home } from './components/Home/Home';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="zaufali-mi" element={<Testimonials />}></Route>
         <Route path="kontakt" element={<Contact />}></Route>
       </Routes>
+    <Footer />
     </BrowserRouter>
   );
 }
