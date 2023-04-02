@@ -36,3 +36,10 @@ input[type=submit]:hover {
         top: 50px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        left: 0;
+        top: 40px;
+    }
+}
