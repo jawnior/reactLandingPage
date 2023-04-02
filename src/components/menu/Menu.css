@@ -28,14 +28,13 @@
 
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
     #menu {
-        top: 180px;
         animation-name: opacity-menu-laptop;
         animation-duration: 2s;
     }
 
     @keyframes opacity-menu-laptop {
-        from {opacity: 0; top: 0px;}
-        to {opacity: 1; top: 180px;}
+        from {opacity: 0;}
+        to {opacity: 1;}
     }
 
     .text-container1 {
