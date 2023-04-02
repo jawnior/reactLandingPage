@@ -1,18 +1,19 @@
 #testimonials {
     display: flex;
-    text-align: center;
     max-width: 100%;
-    position: relative;
-    top: 180px;
-    height: 100%;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     animation-name: opacity-testimonials;
     animation-duration: 2s;
+    position: relative;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+    flex-direction: column;
 }
 
 @keyframes opacity-testimonials {
-    from {opacity: 0; top: 0px;}
-    to {opacity: 1; top: 180px;}
+    from {opacity: 0}
+    to {opacity: 1;}
 }
 
 #testimonials h2 {
