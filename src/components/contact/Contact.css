@@ -1,6 +1,6 @@
 input[type=text], input[type=email], input[type=tel], textarea {
     width: 100%;
-    padding: 12px; 
+    padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
@@ -34,13 +34,14 @@ input[type=submit]:hover {
     height: calc(100vh - 70px);
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px){
-
-}
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    .container {
+        height: 100%;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+  }
 
 @media screen and (max-width: 768px) {
-    .container {
-        left: 0;
-        top: 40px;
-    }
+
 }
