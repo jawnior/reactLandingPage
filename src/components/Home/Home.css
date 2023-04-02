@@ -3,10 +3,18 @@
     position: relative;
     top: 400px;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
     .text {
         top: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text {
+        top: 300px;
+        font-size: 32px;
     }
 }
