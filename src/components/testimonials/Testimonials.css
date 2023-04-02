@@ -7,7 +7,6 @@
     animation-duration: 2s;
     position: relative;
     height: calc(100vh - 70px);
-    margin-top: 70px;
     flex-direction: column;
 }
 

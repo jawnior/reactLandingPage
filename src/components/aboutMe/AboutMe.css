@@ -7,7 +7,6 @@
     animation-duration: 2s;
     position: relative;
     height: calc(100vh - 70px);
-    margin-top: 70px;
 }
 
 @keyframes opacity-about-me {
@@ -18,9 +17,7 @@
 .text-container {
     background-color: #e6e2d3;
     font-size: 40px;
-    padding: 0 10px;
     margin-right: 300px;
-    margin: 20px;
     text-align: center;
 }
 

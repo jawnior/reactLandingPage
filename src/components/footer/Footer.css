@@ -1,13 +1,12 @@
 #footer {
     position: fixed;
-    background-color: #e6e2d3;
     bottom: 0;
     left: 0;
-    right: 0;
-    text-align: center;
     width: 100%;
-    margin-top: 98px;
-  }
+    background-color: #e6e2d3;
+    z-index: 9999;
+    text-align: center;
+}
 
 .text p {
     font-size: 32px;

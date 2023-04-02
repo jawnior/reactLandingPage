@@ -23,12 +23,15 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
-    padding: 20px;
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation-name: opacity-about-me;
+    animation-duration: 2s;
     position: relative;
-    top: 150px;
-    width: 90%;
-    left: 80px;
+    height: calc(100vh - 70px);
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px){
