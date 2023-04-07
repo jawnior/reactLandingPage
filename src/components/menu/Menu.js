@@ -4,7 +4,7 @@ import './Menu.css';
 export function Menu() {
   return (
     <div id="menu">
-    <div className="text-container1">
+    <div className="text-container">
       <h2>Oferta</h2>
     </div>
       <div className="description">
