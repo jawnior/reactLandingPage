@@ -14,14 +14,14 @@
     to {opacity: 1;}
 }
 
-.text-container1 {
+.text-container-menu {
     background-color: #e6e2d3;
     font-size: 40px;
     padding: 0 10px;
     margin-right: 300px;
 }
 
-.description {
+.description-menu {
     text-align: center;
     font-size: 20px;
 }
@@ -41,7 +41,7 @@
         to {opacity: 1;}
     }
 
-    .text-container1 {
+    .text-container-menu {
         margin-right: 150px;
     }
 }
@@ -51,23 +51,23 @@
         margin: 0;
     }
 
-    .text-container {
+    .text-container-menu {
         margin: 100px;
     }
 }
 
-@media only screen and (max-width: 380px) {
-    .text-container {
-        font-size: 30px;
+@media only screen and (max-width: 426px) {
+    #menu {
+        flex-direction: column;
+        margin-top: 10%;
     }
 
-    .text-container h2 {
-        margin-bottom: 0px;
+    .text-container-menu {
+        margin: 0px;
+        font-size: 20px;
     }
 
-    .description {
-        margin-top: 0px;
+    .description-menu {
+        font-size: 15px;
     }
-
-
 }
