@@ -4,10 +4,10 @@ import './Menu.css';
 export function Menu() {
   return (
     <div id="menu">
-    <div className="text-container">
+    <div className="text-container-menu">
       <h2>Oferta</h2>
     </div>
-      <div className="description">
+      <div className="description-menu">
         <p>- mapy do celów projektowych</p>
         <p>- wytyczenie obiektów oraz przyłączy</p>
         <p>- geodezyjna inwentaryzacja powykonawcza</p>
