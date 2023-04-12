@@ -64,16 +64,16 @@
     }
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 361px) {
     #about-me {
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .text-container-about-me {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .description-about-me {
-        font-size: 15px;
+        font-size: 20px;
     }
 }
