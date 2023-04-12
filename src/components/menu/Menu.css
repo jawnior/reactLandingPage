@@ -6,7 +6,7 @@
     animation-name: opacity-about-me;
     animation-duration: 2s;
     position: relative;
-    height: calc(100vh - 70px);
+    height: 100vh;
 }
 
 @keyframes opacity-menu {
