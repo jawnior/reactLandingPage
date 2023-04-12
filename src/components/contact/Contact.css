@@ -33,3 +33,7 @@ input[type=submit]:hover {
     position: relative;
     height: calc(100vh - 70px);
 }
+
+.container h1 {
+    font-size: 50px;
+}
