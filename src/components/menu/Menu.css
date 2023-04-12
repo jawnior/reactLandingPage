@@ -59,15 +59,10 @@
 @media only screen and (max-width: 426px) {
     #menu {
         flex-direction: column;
-        margin-top: 10%;
     }
 
     .text-container-menu {
         margin: 0px;
-        font-size: 20px;
-    }
-
-    .description-menu {
-        font-size: 15px;
+        font-size: 30px;
     }
 }
